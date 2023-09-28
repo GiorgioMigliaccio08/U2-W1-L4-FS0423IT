@@ -1,6 +1,11 @@
+body {
+  background-color: #7e7e81;
+}
 .Lavagna {
-  width: 94%;
-  height: 850px;
+  margin-top: 30px;
+  margin-left: 50px;
+  width: 90%;
+  height: 800px;
   padding: 2em;
   display: flex;
   flex-wrap: wrap;
@@ -39,6 +44,10 @@ p {
   box-shadow: 10px 10px 10px black;
   transform: rotate(-8deg);
 }
+#postit1:hover {
+  transform: rotate(0deg) scale(1.3);
+  z-index: 2;
+}
 
 #postit2 {
   display: flex;
@@ -47,6 +56,11 @@ p {
   box-shadow: 10px 10px 10px black;
   transform: rotate(10deg);
 }
+#postit2:hover {
+  transform: rotate(0deg) scale(1.3);
+  z-index: 2;
+}
+
 #postit3 {
   display: flex;
   flex-direction: column;
@@ -54,12 +68,21 @@ p {
   box-shadow: 10px 10px 10px black;
   transform: rotate(-8deg);
 }
+#postit3:hover {
+  transform: rotate(0deg) scale(1.3);
+  z-index: 2;
+}
+
 #postit4 {
   display: flex;
   flex-direction: column;
   background-color: #c8f8ca;
   box-shadow: 10px 10px 10px black;
   transform: rotate(10deg);
+}
+#postit4:hover {
+  transform: rotate(0deg) scale(1.3);
+  z-index: 2;
 }
 #postit5 {
   display: flex;
@@ -68,6 +91,11 @@ p {
   box-shadow: 10px 10px 10px black;
   transform: rotate(-8deg);
 }
+#postit5:hover {
+  transform: rotate(0deg) scale(1.3);
+  z-index: 2;
+}
+
 #postit6 {
   display: flex;
   flex-direction: column;
@@ -75,6 +103,11 @@ p {
   box-shadow: 10px 10px 10px black;
   transform: rotate(-15deg);
 }
+#postit6:hover {
+  transform: rotate(0deg) scale(1.3);
+  z-index: 2;
+}
+
 #postit7 {
   display: flex;
   flex-direction: column;
@@ -82,10 +115,19 @@ p {
   box-shadow: 10px 10px 10px black;
   transform: rotate(-8deg);
 }
+#postit7:hover {
+  transform: rotate(0deg) scale(1.3);
+  z-index: 2;
+}
+
 #postit8 {
   display: flex;
   flex-direction: column;
   background-color: #c8f8ca;
   box-shadow: 10px 10px 10px black;
   transform: rotate(6deg);
+}
+#postit8:hover {
+  transform: rotate(0deg) scale(1.3);
+  z-index: 2;
 }
