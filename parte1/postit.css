@@ -13,6 +13,8 @@ body {
   border: 20px solid #dbac54;
   background-color: #00552b;
   justify-content: center;
+  animation: enterpostit 3s linear 0s;
+  transform: rotate(0deg);
 }
 .postit {
   width: 15%;
@@ -130,4 +132,14 @@ p {
 #postit8:hover {
   transform: rotate(0deg) scale(1.3);
   z-index: 2;
+}
+
+@keyframes enterpostit {
+  0% {
+    transform: scaleX(10) scaleY(10);
+  }
+
+  100% {
+    transform: scaleX(1) scaleY(1);
+  }
 }
